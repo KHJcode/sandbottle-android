@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Sand Bottle</string>
+
+    <string name="add_post_button_content_description">기록 추가</string>
+    <string name="post_title_edittext_hint">제목</string>
+    <string name="post_contents_edittext_hint">콘텐츠</string>
+    <string name="post_submit_button_text">등록</string>
+
+    <string name="post_item_title_text">기록 제목</string>
+    <string name="post_item_date_text">2021–10–14</string>
+
+    <string name="post_edit_button_text">편집</string>
+    <string name="post_delete_button_text">삭제</string>
 </resources>

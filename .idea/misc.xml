@@ -3,11 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/sandbottle-android/app/src/main/res/drawable/add.xml" value="0.2515625" />
+        <entry key="..\:/sandbottle-android/app/src/main/res/drawable/backspace.xml" value="0.2515625" />
+        <entry key="..\:/sandbottle-android/app/src/main/res/drawable/sand_bottle.xml" value="0.23425925925925925" />
         <entry key="..\:/sandbottle-android/app/src/main/res/layout/activity_main.xml" value="0.22291666666666668" />
         <entry key="..\:/sandbottle-android/app/src/main/res/layout/activity_main2.xml" value="0.22780797101449277" />
         <entry key="..\:/sandbottle-android/app/src/main/res/layout/activity_post_detail.xml" value="0.23550724637681159" />
+        <entry key="..\:/sandbottle-android/app/src/main/res/layout/activity_post_edit.xml" value="0.23541666666666666" />
+        <entry key="..\:/sandbottle-android/app/src/main/res/layout/activity_sand_bottle.xml" value="0.23541666666666666" />
         <entry key="..\:/sandbottle-android/app/src/main/res/layout/activity_write_post.xml" value="0.23550724637681159" />
+        <entry key="..\:/sandbottle-android/app/src/main/res/layout/item_post.xml" value="0.20416666666666666" />
         <entry key="..\:/sandbottle-android/app/src/main/res/layout/post_item.xml" value="0.22291666666666668" />
+        <entry key="..\:/sandbottle-android/app/src/main/res/layout/sand_bottle.xml" value="0.23541666666666666" />
       </map>
     </option>
   </component>

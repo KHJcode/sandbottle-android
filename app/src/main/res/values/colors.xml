@@ -8,4 +8,9 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="green">#2ecc71</color>
+    <color name="red">#e74c3c</color>
+    <color name="transparent">#00000000</color>
+    <color name="river">#3498db</color>
+    <color name="blue">#B8E9FF</color>
+    <color name="sand">#1abc9c</color>
 </resources>
