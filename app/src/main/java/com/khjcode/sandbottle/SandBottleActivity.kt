@@ -28,11 +28,33 @@ class SandBottleActivity : AppCompatActivity() {
                 db.postDao().loadCountOfPosts()
             }.toString()
             scoreTextView.text = score
-            webView.loadUrl("http://animation.khjcode.repl.co/?colors=f1c40f,f1c40f,f1c40f,f1c40f,f1c40f&score=$score")
+            webView.loadUrl("http://animation.khjcode.repl.co/?colors=${getColorString(score.toInt())}&score=$score")
         }
 
         backspaceButton.setOnClickListener {
             finish()
         }
+    }
+
+    private fun getColorString(
+        score: Int
+    ): String {
+        val colorBox = arrayListOf(
+            "1abc9c",
+            "2ecc71",
+            "3498db",
+            "e74c3c",
+            "f1c40f",
+            "2c3e50",
+            "e67e22",
+            "f39c12",
+            "8e44ad"
+        )
+        val range = (0..8)
+        var colorString = colorBox[range.random()]
+        for (i in 1 until score) {
+            colorString = colorString.plus(",${colorBox[range.random()]}")
+        }
+        return colorString
     }
 }
